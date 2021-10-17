@@ -14,11 +14,14 @@ window:
     #y: 0
 
   padding:
-    x: 35
-    y: 35 
+    x: 5
+    y: 5 
 
   dynamic_padding: false
   decorations: none
+
+shell:
+  program: zsh
 
 scrolling:
   history: 50000
@@ -26,18 +29,18 @@ scrolling:
 
 font:
   normal:
-    family: SauceCodePro NF
+    family: Liberation Mono
     style: Regular
 
   bold:
-    family: SauceCodePro NF
+    family: Liberation Mono
     style: Bold
 
   italic:
-    family: SauceCodePro NF
+    family: Liberation Mono
     style: Bold Italic
 
-  size: 12.0
+  size: 8.0
 
   offset:
     x: 0
@@ -45,13 +48,13 @@ font:
 
   glyph_offset:
     x: 0
-    y: 0
+    y: -2
 
-  use_thin_strokes: true
+  use_thin_strokes: false
 
 draw_bold_text_with_bright_colors: true
 
-background_opacity: 0.6
+background_opacity: 0.9
 
 key_bindings:
     - { key: J,        mods: Alt,           chars: "\x1bj"                       }
