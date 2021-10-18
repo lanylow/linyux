@@ -18,7 +18,6 @@ endif
 :highlight VertSplit cterm=NONE
 :set fillchars+=vert:\
 
-" call plug#begin('/home/lanylow/.local/share/nvim/site/autoload/plug.vim')
 call plug#begin()
 	Plug 'https://github.com/preservim/nerdtree'
 	Plug 'https://github.com/tpope/vim-commentary'
@@ -30,6 +29,7 @@ call plug#begin()
 	Plug 'https://github.com/airblade/vim-gitgutter'
 	Plug 'https://github.com/prettier/vim-prettier', { 'do': 'yarn install', 'for': [ 'javascript', 'typescript' ] }
 	Plug 'https://github.com/xiyaowong/nvim-transparent'
+	Plug 'https://github.com/tpope/vim-fugitive'
 
 	Plug 'https://github.com/joshdick/onedark.vim'
 	Plug 'https://github.com/itchyny/lightline.vim'
