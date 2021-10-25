@@ -20,7 +20,6 @@ endif
 :highlight VertSplit cterm=NONE
 :set fillchars+=vert:\
 
-" call plug#begin('/home/lanylow/.local/share/nvim/site/autoload/plug.vim')
 call plug#begin()
 	Plug 'https://github.com/preservim/nerdtree'
 	Plug 'https://github.com/tpope/vim-commentary'
