@@ -5,6 +5,8 @@
 :set nowrap
 :set tabstop=2
 :set shiftwidth=2
+:set softtabstop=2
+:set expandtab
 :set smarttab
 :set smartcase
 :set encoding=UTF-8
@@ -18,6 +20,7 @@ endif
 :highlight VertSplit cterm=NONE
 :set fillchars+=vert:\
 
+" call plug#begin('/home/lanylow/.local/share/nvim/site/autoload/plug.vim')
 call plug#begin()
 	Plug 'https://github.com/preservim/nerdtree'
 	Plug 'https://github.com/tpope/vim-commentary'
