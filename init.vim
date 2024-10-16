@@ -1,6 +1,6 @@
 :syntax on
 
-:set relativenumber
+:set number
 :set autoindent
 :set nowrap
 :set expandtab
@@ -11,7 +11,7 @@
 :set incsearch
 
 if exists('+termguicolors')
-	:set termguicolors
+  :set termguicolors
 endif
 
 :highlight clear SpellBad
@@ -19,20 +19,20 @@ endif
 :set fillchars+=vert:\
 
 call plug#begin()
-	Plug 'https://github.com/preservim/nerdtree'
-	Plug 'https://github.com/tpope/vim-commentary'
-	Plug 'https://github.com/ap/vim-css-color'
-	Plug 'https://github.com/neoclide/coc.nvim', {'branch': 'release'} 
-	Plug 'https://github.com/ryanoasis/vim-devicons'
-	Plug 'https://github.com/tc50cal/vim-terminal'
-	Plug 'https://github.com/terryma/vim-multiple-cursors'
-	Plug 'https://github.com/airblade/vim-gitgutter'
-	Plug 'https://github.com/prettier/vim-prettier', { 'do': 'yarn install', 'for': [ 'javascript', 'typescript' ] }
-	Plug 'https://github.com/xiyaowong/nvim-transparent'
-	Plug 'https://github.com/tpope/vim-fugitive'
+  Plug 'https://github.com/preservim/nerdtree'
+  Plug 'https://github.com/tpope/vim-commentary'
+  Plug 'https://github.com/ap/vim-css-color'
+  Plug 'https://github.com/neoclide/coc.nvim', {'branch': 'release'} 
+  Plug 'https://github.com/ryanoasis/vim-devicons'
+  Plug 'https://github.com/tc50cal/vim-terminal'
+  Plug 'https://github.com/terryma/vim-multiple-cursors'
+  Plug 'https://github.com/airblade/vim-gitgutter'
+  Plug 'https://github.com/prettier/vim-prettier', { 'do': 'yarn install', 'for': [ 'javascript', 'typescript' ] }
+  Plug 'https://github.com/xiyaowong/nvim-transparent'
+  Plug 'https://github.com/tpope/vim-fugitive'
 
-	Plug 'https://github.com/joshdick/onedark.vim'
-	Plug 'https://github.com/itchyny/lightline.vim'
+  Plug 'https://github.com/joshdick/onedark.vim'
+  Plug 'https://github.com/itchyny/lightline.vim'
 call plug#end()
 
 :colorscheme onedark
